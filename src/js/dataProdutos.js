@@ -5,7 +5,7 @@ const produtos = [
     preco: 4500,
     secao: "PlayStation",
     categoria: "Console",
-    img: "./src/./src/img/PS4_Bundle.jpg",
+    img: "./src/img/PS4_Bundle.jpg",
     promocao: false,
     precoPromocao: 4000,
     componentes: [
