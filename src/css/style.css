@@ -55,8 +55,8 @@ header .site-title {
   padding: 14px 26px;
   margin-right: 12px;
   font-weight: 500;
-  color: #212529;
-  background: rgba(18, 184, 134, 0.05);
+  color: #fff;
+  background: #3E88EF;
   border: 1.5px solid rgba(18, 184, 134, 0.05);
   border-radius: 8px;
   cursor: pointer;
@@ -144,7 +144,7 @@ header .site-title {
   flex-direction: column;
   justify-content: space-between;
   width: 274px;
-  height: 350px;
+  height: 365px;
   margin-bottom: 58px;
   margin: 10px 7px;
 }
@@ -201,10 +201,10 @@ header .site-title {
 
 .containerListaProdutos .cart-button {
   padding: 7px 10px;
-  background-color: #12b8860d;
+  background-color: #3E88EF;
   border: 1.5px solid #12b8860d;
   border-radius: 8px;
-  color: #212529;
+  color: #fff;
   font-size: 11px;
   transition: background-color 500ms;
 }
