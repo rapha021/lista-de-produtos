@@ -187,7 +187,7 @@ const produtos = [
     preco: 179,
     secao: "Acessorios",
     categoria: "Acessorios",
-    img: "img/TLOU_2_PS4.jpg",
+    img: "img/Controle Xbox Series.jpg",
     promocao: false,
     precoPromocao: 449,
     componentes: [
