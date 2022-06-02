@@ -1,0 +1,48 @@
+.body-dark {
+  background-color: #1a1a2e;
+}
+
+.site-title-dark {
+  box-shadow: 0px 4px 40px -20px rgba(255, 255, 255, 0.247);
+  background-color: #0f3460;
+  color: #fff;
+}
+
+.search-bar-dark {
+  height: 20px;
+  width: 324px;
+  padding: 14px 0 14px 20px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  outline: none;
+  background-color: #16213e;
+}
+
+.search-bar-dark::placeholder {
+  color: #fff;
+}
+
+.containerPrecoTotal-dark {
+  background-color: #0f3460;
+  color: #fff;
+}
+
+.containerPrecoTotal-dark p:last-child {
+  background-color: rgb(248, 248, 248);
+  color: #212529;
+}
+
+.containerListaProdutos-dark {
+  background-color: #16213e;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.dark-button {
+  width: 50px;
+  margin-top: 10px;
+  background-color: #fff;
+  border: 1px solid #212529;
+  border-radius: 8px;
+  height: 40px;
+}

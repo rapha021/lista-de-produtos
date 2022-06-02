@@ -16,6 +16,7 @@
     ></script>
     <link rel="stylesheet" href="./src/css/reset.css" />
     <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/dark-mode.css" />
     <title>Lista de Produtos</title>
   </head>
   <body>
@@ -24,9 +25,9 @@
       <section class="site-title">
         <h3>Shop now</h3>
       </section>
-    </header>
-
-    <main>
+      <button class="dark-button">
+        <i class="fa-solid fa-moon"></i>
+      </button>
       <section class="header-menu">
         <div class="product-filter">
           <a href="#all-products"
@@ -52,26 +53,38 @@
         </div>
         <div class="search-bar">
           <form>
-            <input type="text" placeholder="Pesquisar por" />
+            <input
+              class="input-search"
+              type="text"
+              placeholder="Pesquisar por"
+            />
             <button type="">
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
           </form>
         </div>
       </section>
-      <div class="containerPrecoTotal">
-        <p>
-          <i class="fa-solid fa-circle-info"></i> Valor total dos produtos da
-          sessão selecionada
-        </p>
-        <p>R$<span id="precoTotal">00.00</span></p>
-      </div>
-      <div class="containerListaProdutos" id="listProdutos">
-        <ul>
-          <!-- Utilize esse item html como template para a construção da lista de produtos -->
+    </header>
 
-          <!-- Você pode remover esses comentários depois que fizer a construção pelo DOM -->
-        </ul>
+    <main>
+      <div class="products">
+        <div class="containerListaProdutos" id="listProdutos">
+          <ul class="Lista-Produtos"></ul>
+        </div>
+      </div>
+      <div class="carrinho">
+        <div class="cart-title">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <p>Carrinho</p>
+        </div>
+        <div class="cart-products">
+          <i id="cart-icon" class="fa-solid fa-basket-shopping"></i>
+          <p id="cart-text">Por enquanto não temos produtos no carrinho</p>
+        </div>
+        <div class="total-price-div">
+          <p>Total</p>
+          <p id="total-price">R$ 00,00</p>
+        </div>
       </div>
     </main>
 
