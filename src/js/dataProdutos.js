@@ -5,7 +5,7 @@ const produtos = [
     preco: 4500,
     secao: "PlayStation",
     categoria: "Console",
-    img: "./src/img/banana.png",
+    img: "img/PS4_Bundle.jpg",
     promocao: false,
     precoPromocao: 4000,
     componentes: [
@@ -21,7 +21,7 @@ const produtos = [
     preco: 259,
     secao: "Acessorios",
     categoria: "Acessorios",
-    img: "./src/img/morango.png",
+    img: "img/PS4_DualShock4.jpg",
     promocao: false,
     precoPromocao: 230,
     componentes: ["PS4", "Controles", "Carregador incluso"],
@@ -32,7 +32,7 @@ const produtos = [
     preco: 3999,
     secao: "PlayStation",
     categoria: "Consoles",
-    img: "./src/img/maca.png",
+    img: "img/PS5_DigitalEdition.jpg",
     promocao: false,
     precoPromocao: 3599,
     componentes: [
@@ -48,7 +48,7 @@ const produtos = [
     preco: 4499,
     secao: "PlayStation",
     categoria: "Consoles",
-    img: "./src/img/pao.png",
+    img: "img/PS5_FisicalEdition.jpg",
     promocao: false,
     precoPromocao: 4299,
     componentes: ["Nova Geração!", "Dualsense"],
@@ -59,7 +59,23 @@ const produtos = [
     preco: 499,
     secao: "Acessorios",
     categoria: "Acessorios",
-    img: "./src/img/leite.png",
+    img: "img/PS5_DualSense.jpg",
+    promocao: false,
+    precoPromocao: 449,
+    componentes: [
+      "Nova Geração!",
+      "Ray-Tracing",
+      "SSD ultra rapido",
+      "Dualsense",
+    ],
+  },
+  {
+    id: 6,
+    nome: "The Last Of Us - PlayStation 4",
+    preco: 179,
+    secao: "Jogos",
+    categoria: "PlayStation",
+    img: "img/TLOU_PS4_Remaster.jpg",
     promocao: false,
     precoPromocao: 449,
     componentes: [
@@ -91,7 +107,7 @@ const produtos = [
     preco: 179,
     secao: "Jogos",
     categoria: "PlayStation",
-    img: "img/TLOU_2_PS4.jpg",
+    img: "img/GodOfWar_PS4.jpg",
     promocao: false,
     precoPromocao: 449,
     componentes: [
@@ -107,7 +123,7 @@ const produtos = [
     preco: 179,
     secao: "Jogos",
     categoria: "PlayStation",
-    img: "img/TLOU_2_PS4.jpg",
+    img: "img/giftCard_PSN.jpg",
     promocao: false,
     precoPromocao: 449,
     componentes: [
@@ -123,7 +139,7 @@ const produtos = [
     preco: 179,
     secao: "Xbox",
     categoria: "Consoles",
-    img: "img/TLOU_2_PS4.jpg",
+    img: "img/Xbox one S.jpg",
     promocao: false,
     precoPromocao: 449,
     componentes: [
@@ -139,7 +155,7 @@ const produtos = [
     preco: 179,
     secao: "Xbox",
     categoria: "Consoles",
-    img: "img/TLOU_2_PS4.jpg",
+    img: "img/Xbox series S.jpg",
     promocao: false,
     precoPromocao: 449,
     componentes: [
@@ -155,7 +171,7 @@ const produtos = [
     preco: 179,
     secao: "Xbox",
     categoria: "Acessorios",
-    img: "img/TLOU_2_PS4.jpg",
+    img: "img/Xbox Series X.jpg",
     promocao: false,
     precoPromocao: 449,
     componentes: [
@@ -167,7 +183,7 @@ const produtos = [
   },
   {
     id: 13,
-    nome: "Controle Xbox Wireless - Shock Blue",
+    img: "img/Controle Xbox Series.jpg",
     preco: 179,
     secao: "Acessorios",
     categoria: "Acessorios",
@@ -187,7 +203,7 @@ const produtos = [
     preco: 179,
     secao: "Jogos",
     categoria: "Acessorios",
-    img: "img/TLOU_2_PS4.jpg",
+    img: "img/giftCard_Xbox.jpg",
     promocao: false,
     precoPromocao: 449,
     componentes: [
