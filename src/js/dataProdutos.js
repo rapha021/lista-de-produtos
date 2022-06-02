@@ -183,6 +183,7 @@ const produtos = [
   },
   {
     id: 13,
+    nome: 'Controle Xbox',
     img: "./src/img/Controle Xbox Series.jpg",
     preco: 179,
     secao: "Acessorios",

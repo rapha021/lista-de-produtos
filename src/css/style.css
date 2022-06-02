@@ -1,3 +1,7 @@
+::root{
+  --blue: #1D63DC
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -47,7 +51,7 @@ header .site-title {
   padding: 14px 26px;
   margin-right: 12px;
   font-weight: 500;
-  color: #12b886;
+  color: var(--blue);
   background: rgba(18, 184, 134, 0.05);
   border: 1.5px solid rgba(18, 184, 134, 0.05);
   border-radius: 8px;
@@ -81,7 +85,7 @@ header .site-title {
   width: 59px;
   border: 1px solid transparent;
   border-radius: 8px;
-  background-color: #12b886;
+  background-color: var(--blue);;
   color: white;
 }
 
@@ -196,13 +200,13 @@ header .site-title {
   background-color: #12b8860d;
   border: 1.5px solid #12b8860d;
   border-radius: 8px;
-  color: #12b886;
+  color: var(--blue);;
   font-size: 11px;
   transition: background-color 500ms;
 }
 
 .containerListaProdutos .cart-button:hover {
-  background-color: #12b886;
+  background-color: var(--blue);;
   color: white;
   cursor: pointer;
 }
@@ -220,7 +224,7 @@ header .site-title {
   height: 51px;
   width: 100%;
   padding: 0 20px;
-  background-color: #12b886;
+  background-color: var(--blue);;
   color: white;
   border-radius: 12px 12px 0px 0px;
 }
@@ -308,7 +312,7 @@ header .site-title {
   padding: 0 20px;
   border-radius: 8px;
   color: white;
-  background-color: #12b886;
+  background-color: var(--blue);;
 }
 
 @media (max-width: 1024px) {
