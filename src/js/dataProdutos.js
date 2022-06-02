@@ -5,7 +5,7 @@ const produtos = [
     preco: 4500,
     secao: "PlayStation",
     categoria: "Console",
-    img: "img/PS4_Bundle.jpg",
+    img: "./src/./src/img/PS4_Bundle.jpg",
     promocao: false,
     precoPromocao: 4000,
     componentes: [
@@ -21,7 +21,7 @@ const produtos = [
     preco: 259,
     secao: "Acessorios",
     categoria: "Acessorios",
-    img: "img/PS4_DualShock4.jpg",
+    img: "./src/img/PS4_DualShock4.jpg",
     promocao: false,
     precoPromocao: 230,
     componentes: ["PS4", "Controles", "Carregador incluso"],
@@ -32,7 +32,7 @@ const produtos = [
     preco: 3999,
     secao: "PlayStation",
     categoria: "Consoles",
-    img: "img/PS5_DigitalEdition.jpg",
+    img: "./src/img/PS5_DigitalEdition.jpg",
     promocao: false,
     precoPromocao: 3599,
     componentes: [
@@ -48,7 +48,7 @@ const produtos = [
     preco: 4499,
     secao: "PlayStation",
     categoria: "Consoles",
-    img: "img/PS5_FisicalEdition.jpg",
+    img: "./src/img/PS5_FisicalEdition.jpg",
     promocao: false,
     precoPromocao: 4299,
     componentes: ["Nova Geração!", "Dualsense"],
@@ -59,7 +59,7 @@ const produtos = [
     preco: 499,
     secao: "Acessorios",
     categoria: "Acessorios",
-    img: "img/PS5_DualSense.jpg",
+    img: "./src/img/PS5_DualSense.jpg",
     promocao: false,
     precoPromocao: 449,
     componentes: [
@@ -75,7 +75,7 @@ const produtos = [
     preco: 179,
     secao: "Jogos",
     categoria: "PlayStation",
-    img: "img/TLOU_PS4_Remaster.jpg",
+    img: "./src/img/TLOU_PS4_Remaster.jpg",
     promocao: false,
     precoPromocao: 449,
     componentes: [
@@ -91,7 +91,7 @@ const produtos = [
     preco: 179,
     secao: "Jogos",
     categoria: "PlayStation",
-    img: "img/TLOU_2_PS4.jpg",
+    img: "./src/img/TLOU_2_PS4.jpg",
     promocao: false,
     precoPromocao: 449,
     componentes: [
@@ -107,7 +107,7 @@ const produtos = [
     preco: 179,
     secao: "Jogos",
     categoria: "PlayStation",
-    img: "img/GodOfWar_PS4.jpg",
+    img: "./src/img/GodOfWar_PS4.jpg",
     promocao: false,
     precoPromocao: 449,
     componentes: [
@@ -123,7 +123,7 @@ const produtos = [
     preco: 179,
     secao: "Jogos",
     categoria: "PlayStation",
-    img: "img/giftCard_PSN.jpg",
+    img: "./src/img/giftCard_PSN.jpg",
     promocao: false,
     precoPromocao: 449,
     componentes: [
@@ -139,7 +139,7 @@ const produtos = [
     preco: 179,
     secao: "Xbox",
     categoria: "Consoles",
-    img: "img/Xbox one S.jpg",
+    img: "./src/img/Xbox one S.jpg",
     promocao: false,
     precoPromocao: 449,
     componentes: [
@@ -155,7 +155,7 @@ const produtos = [
     preco: 179,
     secao: "Xbox",
     categoria: "Consoles",
-    img: "img/Xbox series S.jpg",
+    img: "./src/img/Xbox series S.jpg",
     promocao: false,
     precoPromocao: 449,
     componentes: [
@@ -171,7 +171,7 @@ const produtos = [
     preco: 179,
     secao: "Xbox",
     categoria: "Acessorios",
-    img: "img/Xbox Series X.jpg",
+    img: "./src/img/Xbox Series X.jpg",
     promocao: false,
     precoPromocao: 449,
     componentes: [
@@ -183,11 +183,11 @@ const produtos = [
   },
   {
     id: 13,
-    img: "img/Controle Xbox Series.jpg",
+    img: "./src/img/Controle Xbox Series.jpg",
     preco: 179,
     secao: "Acessorios",
     categoria: "Acessorios",
-    img: "img/Controle Xbox Series.jpg",
+    img: "./src/img/Controle Xbox Series.jpg",
     promocao: false,
     precoPromocao: 449,
     componentes: [
@@ -203,7 +203,7 @@ const produtos = [
     preco: 179,
     secao: "Jogos",
     categoria: "Acessorios",
-    img: "img/giftCard_Xbox.jpg",
+    img: "./src/img/giftCard_Xbox.jpg",
     promocao: false,
     precoPromocao: 449,
     componentes: [
