@@ -189,7 +189,6 @@ function addProductCard(product) {
   const cartList = document.querySelector(".cart-list");
 
   const cartProduct = document.querySelector(".cart-products");
-  cartProduct.style.height = "auto";
 
   const cartItem = document.createElement("li");
   cartItem.classList.add("item-cart");

@@ -209,7 +209,7 @@ header .site-title {
 
 .carrinho {
   margin-top: 62px;
-  width: 290px;
+  width: 310px;
 }
 
 .carrinho .cart-title {
@@ -237,6 +237,7 @@ header .site-title {
   align-content: center;
   height: 268px;
   width: 100%;
+  overflow: auto;
   background-color: #f8f9fa;
   border-radius: 0px 0px 12px 12px;
 }
