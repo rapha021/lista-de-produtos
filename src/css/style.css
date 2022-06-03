@@ -1,3 +1,7 @@
+:root{
+  --blue: #1D63DC;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -31,6 +35,10 @@ header .site-title {
   font-weight: 600;
 }
 
+.site-title img {
+  width: 150px;
+}
+
 .header-menu {
   display: flex;
   justify-content: space-between;
@@ -47,8 +55,8 @@ header .site-title {
   padding: 14px 26px;
   margin-right: 12px;
   font-weight: 500;
-  color: #12b886;
-  background: rgba(18, 184, 134, 0.05);
+  color: #fff;
+  background: #3E88EF;
   border: 1.5px solid rgba(18, 184, 134, 0.05);
   border-radius: 8px;
   cursor: pointer;
@@ -56,8 +64,8 @@ header .site-title {
 
 .header-menu .product-filter .filter-button:target {
   color: white;
-  background: rgba(18, 184, 134, 1);
-  border: 1.5px solid rgba(18, 184, 134, 1);
+  background: var(--blue);;
+  border: 1.5px solid var(--blue);;
 }
 
 .header-menu .search-bar {
@@ -81,7 +89,7 @@ header .site-title {
   width: 59px;
   border: 1px solid transparent;
   border-radius: 8px;
-  background-color: #12b886;
+  background-color: var(--blue);;
   color: white;
 }
 
@@ -116,7 +124,7 @@ header .site-title {
 }
 
 .containerPrecoTotal p svg {
-  color: rgba(18, 184, 134, 1);
+  color: var(--blue);;
 }
 
 .containerListaProdutos {
@@ -136,7 +144,7 @@ header .site-title {
   flex-direction: column;
   justify-content: space-between;
   width: 274px;
-  height: 350px;
+  height: 365px;
   margin-bottom: 58px;
   margin: 10px 7px;
 }
@@ -193,16 +201,16 @@ header .site-title {
 
 .containerListaProdutos .cart-button {
   padding: 7px 10px;
-  background-color: #12b8860d;
+  background-color: #3E88EF;
   border: 1.5px solid #12b8860d;
   border-radius: 8px;
-  color: #12b886;
+  color: #fff;
   font-size: 11px;
   transition: background-color 500ms;
 }
 
 .containerListaProdutos .cart-button:hover {
-  background-color: #12b886;
+  background-color: var(--blue);;
   color: white;
   cursor: pointer;
 }
@@ -220,7 +228,7 @@ header .site-title {
   height: 51px;
   width: 100%;
   padding: 0 20px;
-  background-color: #12b886;
+  background-color: var(--blue);;
   color: white;
   border-radius: 12px 12px 0px 0px;
 }
@@ -309,7 +317,7 @@ header .site-title {
   padding: 0 20px;
   border-radius: 8px;
   color: white;
-  background-color: #12b886;
+  background-color: var(--blue);;
 }
 
 @media (max-width: 1024px) {
